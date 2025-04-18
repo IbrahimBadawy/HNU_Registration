@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "first upload for Helwan Admission System"
+git branch -M main
+git remote add origin https://github.com/IbrahimBadawy/HNU_Registration.git
+git push -u origin main
