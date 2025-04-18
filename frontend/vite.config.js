@@ -10,4 +10,9 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"), // 👈 حل مشكلة @
     },
   },
+  server: {
+    proxy: {
+      "/api": "http://localhost:8000", // Django server
+    },
+  },
 });
