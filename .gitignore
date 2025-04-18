@@ -1,18 +1,24 @@
 # Python
 venv/
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 *.sqlite3
+
+# Django static/media
+/media/
+/staticfiles/
 
 # Node
 node_modules/
 dist/
 
-# Environment
-.env
-
 # Logs
 *.log
+
+# Env
+.env
+
+# VS Code
+.vscode/
 
 *.exe
